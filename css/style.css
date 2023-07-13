@@ -1,0 +1,308 @@
+body{
+    font-family: "Montserrat";
+}
+h1,h2{
+    font-family: "Montserrat Black";
+
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: "Montserrat-Bold";
+    text-align: center;
+}
+p{
+    color:#8f8f8f;
+    text-align: center;
+}
+.city_text_color
+{
+    color: black;
+}
+.f{
+ text-align: center;
+}
+
+.card{
+    margin-top: 50px;
+    margin-left:50px ;
+    width: 400px;
+    height: 400px;
+}
+
+#title{
+    width: 100vw;
+    /* background-image: url('../images/jcb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* position: static; */
+    /* height: fit-content; */
+    color:#fff;
+ 
+}
+#first{
+    height: 100%;
+    padding-bottom: 200px;
+   
+}
+.jcb{
+    margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  height: 400px;
+  width:auto;
+}
+.container-fluid{
+    width: fit-content;
+    margin-top: 2rem;
+    height:100vm;
+    padding: 3% 15%;
+     background-image: url('../images/jcb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    /* height: fit-content;  */
+    /* aspect-ratio: 16 / 9; */
+
+    
+}
+
+
+/*Navigation-brand*/
+#navbar{
+    width: 100%;
+   /* padding:0 0 4.5rem; */
+   top: 0%;
+   z-index: 1;
+   position: fixed;
+   background-color:gray;
+   /* margin-top:0%; */
+
+}
+.navbar-brand{
+ 
+    font-family:"Ubuntu";
+    font-size:2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding:0 20px;
+}
+.nav-link{
+    font-size:1.2rem;
+    font-family:"Montserrat-Light";
+}
+/*download buttons*/
+.download-button{
+    margin:3% 5% 3% 0;
+}
+
+/*Tittle image*/
+/* .jcb{
+    width:90%;
+    height:90%;
+    transform:rotate(12deg);
+} */
+/*features system*/
+#features{
+    padding:7% 15%;
+}
+#price_card{
+margin: auto
+}
+#card_icon{
+    margin-top:20px;
+    margin-left: 20px;
+}
+.card_btn{
+ margin: 5px 5px;
+
+}
+.card_place{
+    width: 100%;
+    margin: auto;
+  /* margin-bottom: 50px;
+  margin-left: 20px; */
+}
+.card_place input{
+    margin: auto;
+  /* margin-bottom: 50px; */
+  margin-left: 20px; 
+}
+.features-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+   /* text-align: center; */
+   /* padding:5%; */
+}
+
+.icon{
+    color:#ef8172;
+    /* margin-left: 80px;
+    margin-bottom: 20px; */
+    margin: auto;
+}
+
+i{
+    margin: auto;
+}
+.icon:hover{
+    cursor: pointer;
+    color: #ff4c68;
+    font-weight: 900;
+}
+/*testimonials*/
+#testimonials{
+    width: 100%;
+    padding:7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color:#fff;
+} 
+#small{
+    width: 15rem;
+    height:15rem;
+    border-radius: 100%;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+#press
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:#ef8172 ;
+    
+}
+.small_jcb{
+    margin-left: 20px;
+    
+}
+.press-logo{
+    width:15%;
+    margin-left:25px;
+    /* width: auto; */
+}
+
+.carousel-item{
+    padding:7% 20%;
+}
+
+.slide_info{
+    margin-top: 250px;
+}
+.slide-content{
+    margin-right:0px;
+  
+}
+
+.slide-content{
+    padding-right:0px;
+    padding-left:0px;
+    margin-right:50px;
+    margin-left: 0px;
+  
+}
+
+/*Pricing section*/
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.pic_above_content{
+    width:200px;
+}
+
+.about-section{
+    width: 30px;
+    text-align: center;
+    margin-left: 80px;
+ 
+}
+#cta{
+    background-color:#ef8172;
+    width: 100;
+    height: 500px;
+    color: #fff;
+    padding: 7% 15%;
+    margin-bottom: 50px;
+}
+.cta-heading{
+    text-align: center;
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.cities{
+    padding:5% 15%;
+}
+.c_data{
+    margin-top:100px;
+}
+.ctn-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Footer section */
+#footer{
+    padding: 5% 15%;
+    text-align: center;
+    background-color:rgb(43, 36, 36);
+}
+
+#info-us{
+    background-color:#ef8 172;
+    padding-bottom: 150px;
+}
+.social-icons{
+    margin: 20px 10px;
+    color: #ff4c68;
+}
+.social-icons:hover{
+    cursor: pointer;
+    background-color: #ff4c68;
+}
+@media (max-width:1028px) {
+    #title{
+        text-align: center;
+    }
+    .container-fluid{
+        width:700px;
+        height:500px;
+        
+    }
+    #online_text{
+        height:100px;
+    }
+    #cta{
+        height: 700px;
+    }
+    .about-section{
+        margin-bottom:50px;
+    }
+  
+    
+}
+@media (max-width:900px) {
+    .featres-box{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:450px) {
+    .ctn-button{
+        
+        flex-direction: column;
+    }
+}
