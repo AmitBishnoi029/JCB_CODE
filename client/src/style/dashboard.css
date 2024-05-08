@@ -1,0 +1,39 @@
+.dashboard{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 4rem;
+    align-items: center;
+}
+.buttons{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    padding: 0.5rem;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+}
+.form{
+    width: 60%;
+    height: 100%;
+}
+@media screen and (max-width:800px) {
+    .buttons{
+        width: 95%;
+    }
+    .form{
+        width: 95%;
+    }
+}
+@media screen and (max-width:490px) {
+  button{
+    width: 29%;
+  }
+}

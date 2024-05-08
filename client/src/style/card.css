@@ -1,0 +1,19 @@
+.card{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+  }
+  .card .details p{
+    font-size: 1.5rem;
+  }
+  .details{
+    width: 100%;
+    display: flex;
+  }
+  h3{
+    margin-block-start: 0em;
+    font-size: 1.3rem;
+  }
+ 
